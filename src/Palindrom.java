@@ -19,6 +19,5 @@ public class Palindrom {
         System.out.print("Bir Sayi Giriniz:");
         n= input.nextInt();
         System.out.println(isPalindrom(n));
-
     }
 }

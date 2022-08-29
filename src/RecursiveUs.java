@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class RecursiveUs {
     static int uslu(int taban,int us){
         int sonuc=1;
-        if(us==0){
-            return 1;
-        }else if(taban==1){
+        if(us==0 || taban==1){
             return 1;
         }else {
             sonuc *= taban;
